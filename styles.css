@@ -1,0 +1,33 @@
+.wrapper {
+background-color:none;
+padding:0px;
+word-spacing: 5px;
+line-height: 1.8;
+
+white-space: pre-wrap;        
+white-space: -moz-pre-wrap;   
+white-space: -pre-wrap;       
+white-space: -o-pre-wrap;      
+word-wrap: break-word;     
+white-space: pre-line;
+overflow: auto;
+text-overflow: ellipsis; 
+text-align:justify;
+overflow:auto:
+}
+
+footer{
+color: white;
+
+}
+
+.pagination a{
+padding:10px;
+//border: 1px solid black;
+overflow:auto;
+
+}
+
+#loader{ position:fixed; top:0px; right:0px; width:100%; height:100%; background-color:#666; background-image:url('ajax-loader.gif'); background-repeat:no-repeat; background-position:center; z-index:10000000; opacity: 0.4; filter: alpha(opacity=40); /* For IE8 and earlier */ }
+
+
